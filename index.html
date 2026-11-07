@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Codex 배우기</title>
+  <meta name="description" content="OpenAI Codex CLI 로 배우는 AI 코딩 에이전트 — 4주 24일 실습 강좌">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <button class="icon-btn menu-btn" id="menuBtn" aria-label="메뉴 열기">☰</button>
+    <a href="#/" class="brand"><span class="brand-mark">◎</span> Codex 배우기</a>
+    <nav class="topnav">
+      <a href="#/">로드맵</a>
+      <a href="#/cheatsheet">명령어 모음</a>
+      <a href="#/glossary">용어 사전</a>
+    </nav>
+    <div class="progress-pill" id="progressPill" title="전체 진도">
+      <div class="progress-pill-bar"><span id="progressPillFill"></span></div>
+      <span id="progressPillText">0 / 24</span>
+    </div>
+    <button class="icon-btn" id="themeBtn" aria-label="테마 전환">◐</button>
+  </header>
+
+  <div class="layout">
+    <aside class="sidebar" id="sidebar"></aside>
+    <div class="scrim" id="scrim"></div>
+    <main id="app" class="main" tabindex="-1"></main>
+  </div>
+
+  <footer class="footer">
+    이 사이트는 학습용 강좌입니다. 터미널 실습은 브라우저 안에서 동작하는 <b>시뮬레이션</b>이며, 실제 명령은 본인 PC 터미널에서 따라 해 보세요.
+  </footer>
+
+  <script src="js/config.js"></script>
+  <script src="js/viz.js"></script>
+  <script src="js/practice.js"></script>
+  <script src="js/data-week1.js"></script>
+  <script src="js/data-week2.js"></script>
+  <script src="js/data-week3.js"></script>
+  <script src="js/data-week4.js"></script>
+  <script src="js/extras.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
